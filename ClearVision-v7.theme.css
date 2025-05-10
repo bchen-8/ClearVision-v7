@@ -14,8 +14,8 @@
 /* SETTINGS */
 :root {
   /* ACCENT COLORS */
-  --main-color: #2780e6;
-  --hover-color: #F5D9B2;
+  --main-color: #F5D9B2;
+  --hover-color: ##FFB5B5;
   --success-color: #43b581;
   --danger-color: #982929;
   /* STATUS COLORS */
@@ -69,7 +69,7 @@
 
 /* DARK THEME */
 :is(.theme-darker, .theme-light .theme-darker) {
-  --background-shading: rgba(0, 0, 0, 0.7);
+  --background-shading: rgba(0, 0, 0, 0.55);
   --card-shading: rgba(0, 0, 0, 0.4);
   --popout-shading: rgba(0, 0, 0, 0.8);
   --modal-shading: rgba(0, 0, 0, 0.6);
