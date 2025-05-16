@@ -1,4 +1,13 @@
 @use 'backend' as *;
+
+// FOCUS
+#{c(main keyboardMode)} {
+  #{c(guildList focusStroke)} {
+    stroke: var(--focus-color);
+    stroke-width: 4px;
+  }
+}
+
 #{c(main visualRefresh)} {
   // GUILD LIST
   #{c(guildList guilds)} {
@@ -24,7 +33,7 @@
     // > so it wont affect group dms
       width: 100%;
       height: 100%;
-      background: cv('home.icon') center/cover no-repeat;
+      background: cv('home.icon') center/cv('home.size') no-repeat;
     }
     path {
       display: none;
