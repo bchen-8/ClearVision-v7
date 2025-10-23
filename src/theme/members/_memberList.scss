@@ -1,15 +1,12 @@
 @use 'backend' as *;
 
-#{c(main visualRefresh)} {
-  #{c(memberList container)} {
-    background: none;
-    border: none;
-  }
-  #{c(memberList wrap)} {
-    background: none;
-    border: none;
-    height: 100%;
-  }
+#{c(memberList container)} {
+  background: none;
+  border: none;
+}
+#{c(memberList wrap)} {
+  background: none;
+  border: none;
 }
 #{c(memberList members)} {
   background: hsl(from cv('shading.bg') h s l/calc(cv('shading.percent') * 0.3));
@@ -45,13 +42,11 @@
 }
 
 // RECENT ACTIVITY
-#{c(main visualRefresh)} {
-  #{c(memberList activityContainer)} {
-    background: cv('shading.card');
-    border-radius: 8px;
-    border-width: 2px;
-    padding-left: 10px;
-  }
+#{c(memberList activityContainer)} {
+  background: cv('shading.card');
+  border-radius: 8px;
+  border-width: 2px;
+  padding-left: 10px;
 }
 #{c(memberList activityContainerSelected)} {
   &,
@@ -98,9 +93,9 @@
       top: 0;
       right: 0;
       bottom: 0;
-      left: 0;
+      left: -8px;
       background: linear-gradient(to right, cv('shading.hover') 90%, transparent);
-      border-radius: 3px;
+      border-radius: 4px;
       opacity: 0;
       transition: all 0.15s ease-in-out;
       z-index: -1;
@@ -109,9 +104,9 @@
       content: '';
       position: absolute;
       top: 0;
-      right: 100%;
+      right: calc(100% + 8px);
       bottom: 0;
-      left: 0;
+      left: -8px;
       background: linear-gradient(to right, cv('color.main') 90%, transparent);
       border-radius: 3px;
       opacity: 0.8;
