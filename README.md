@@ -47,7 +47,7 @@ Goals:
 
 ## Theme Editor
 
-In memory of Gibbu, gone but not forgotten....
+In memory of **ClearVision BD Theme Editor**, gone but not forgotten....
 
 You can enjoy the new theme editor exclusively for ClearVision v7 by [Snow](https://github.com/therealjustsnow)
 
