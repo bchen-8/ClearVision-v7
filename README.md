@@ -47,9 +47,11 @@ Goals:
 
 ## Theme Editor
 
-Currently not available
+In memory of Gibbu, gone but not forgotten....
 
-You can check for updates regarding the theme editor [here](https://discord.gg/ZHthyCw)
+You can enjoy the new theme editor exclusively for ClearVision v7 by [Snow](https://github.com/therealjustsnow)
+
+[ClearVisionv7 Theme Editor](https://therealjustsnow.github.io/v7-editor)
 
 
 ## Installing
