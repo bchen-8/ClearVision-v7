@@ -47,8 +47,6 @@ Goals:
 
 ## Theme Editor
 
-In memory of **ClearVision BD Theme Editor**, gone but not forgotten....
-
 You can enjoy the new theme editor exclusively for ClearVision v7 by [Snow](https://github.com/therealjustsnow)
 
 [ClearVisionv7 Theme Editor](https://therealjustsnow.github.io/v7-editor)
