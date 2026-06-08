@@ -141,6 +141,14 @@
   }
 }
 
+// POPOUT LOADING
+#{c(profile popout loading profile)} {
+  background: cv('shading.popout');
+}
+#{c(profile popout loading avatar)} {
+  border: none;
+}
+
 // DM SIDE PROFILE
 #{c(profile userSidebar)} {
   &:not(#{c(profile customTheme)}) {

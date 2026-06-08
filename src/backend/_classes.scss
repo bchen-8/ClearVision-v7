@@ -1527,6 +1527,11 @@ $classes: (
     'profileAvatarWrapper': 'avatarWrapper_dca174',
   ),
 
+  'pagesLoading': (
+    'page': 'page__1add6',
+    'header': 'header__1add6',
+  ),
+
   // browse channels/channels and roles
   'channelsPage': (
       // header stuff
@@ -1834,8 +1839,8 @@ $classes: (
       'nameLink': 'fileNameLink__0ccae',
 
       'upload': (        
-        'progress': 'progress__45530',
-        'progressBar': 'progressBar__45530',
+        'track': 'track__55b14',
+        'trackFill': 'fill__55b14',
       ),
     ),
 
@@ -3599,6 +3604,16 @@ $classes: (
         ),
 
         'desaturateUserColors': 'desaturateUserColors__41f68',
+
+        'loading': (
+          'profile': 'profilePopout__1add6',
+          'banner': 'profileBanner__1add6',
+          'avatar': 'profileAvatar__1add6',
+          'header': 'profileHeader__1add6',
+          'tabs': 'profileTabs__1add6',
+          'content': 'profileContent__1add6',
+          'bar': 'bar__1add6',
+        ),
       ),
     ),
 

@@ -149,8 +149,8 @@
   background: cv('shading.card');
   border: none;
 }
-#{c(embeds attachment upload progressBar)} {
-  background: cv('color.main') !important;
+#{c(embeds attachment upload trackFill)} {
+  background: cv('color.main');
 }
 
 // INVITE
